@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+    nginx:
+        ports:
+            - '1301:80'
+        volumes:
+            - '/home/muhammadrevin/training/html:/usr/share/nginx/html'
+        image: 'nginx:stable-alpine3.17-slim'
+
